@@ -12,12 +12,18 @@
   <body>
     <header class="main-head">
       <nav>
-        <h1 id="logo">Junhyung Park</h1>
+        <h1 id="logo">J Photo</h1>
+
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
+          <li><a href="#gallery">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="burger">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
       </nav>
     </header>
     <main>
@@ -28,18 +34,95 @@
             Photography
           </h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
-            dignissimos perferendis unde vitae at alias laudantium omnis
-            mollitia deserunt possimus.
+            Welcome to professional photographer Junhyung Park's web photo
+            exhibition.
           </p>
           <a href="#gallery">Gallery</a>
         </div>
         <div class="hero-images">
-          <img class="hero-elena" src="/img/elena-joy.png" alt="Pics of J" />
+          <img class="hero-elena" src="/img/11.jpeg" alt="Pics of J" />
           <img src="/img/plant1.png" alt="plant" class="plant1 plant" />
           <img src="/img/plant2.png" alt="plant" class="plant2 plant" />
         </div>
       </section>
+      <section class="about" id="about">
+        <div class="about-image">
+          <h5>California</h5>
+          <img src="/img/22.jpeg" alt="portrait-picture" />
+        </div>
+        <div class="about-text flex">
+          <h2>Junhyung</h2>
+
+          <div class="about-life">
+            <h3>My Life</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis facilis exercitationem corporis est cupiditate vel
+              facere iure accusamus, iste error.
+            </p>
+          </div>
+
+          <div class="about-work">
+            <h3>My Work</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis facilis exercitationem corporis est cupiditate vel
+              facere iure accusamus, iste error.
+            </p>
+          </div>
+
+          <div class="about-contact">
+            <h3>My Contact</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis facilis exercitationem corporis est cupiditate vel
+              facere iure accusamus, iste error.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="gallery" id="gallery">
+        <header class="gallery-head">
+          <h2>Quality Photography</h2>
+          <p>My work pictures that I took</p>
+        </header>
+        <img class="gallery1" src="/img/a.jpeg" alt="1" />
+        <img class="gallery2" src="/img/b.jpeg" alt="2" />
+        <img class="gallery3" src="/img/f.jpeg" alt="3" />
+        <img class="gallery4" src="/img/e.jpeg" alt="4" />
+      </div>
+
+      <section class="contact" id="contact">
+        <div class="form-wrapper flex">
+          <h2>
+            Get in <br />
+            <span> touch. </span>
+          </h2>
+          <form action="https://formspree.io/f/xqkgbkad" method="POST">
+            <label for="email">Your Email</label>
+            <input type="email" required name="_replyto" />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <img src="/img/33.jpeg" alt="contact" />
+      </section>
     </main>
+    <footer>
+      <h4>Junhyung &copy; 2020</h4>
+      <ul>
+        <li>
+          <a href="#"><img src="/img/twitter 1.svg" alt="twitter" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/img/youtube-symbol 1.svg" alt="youtube" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/img/instagram 1.svg" alt="instagram" /></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>
